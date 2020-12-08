@@ -601,8 +601,8 @@ namespace Back_End
         struct customerDetails
         {
             public string fname;
-            string sname;
-            string address;
+            public string sname;
+            public string address;
         }
 
 
@@ -633,6 +633,8 @@ namespace Back_End
                     if (reader["ID"].ToString() == customerID)
                     {
                         details.fname = reader["CustomerFirstName"].ToString();
+                        details.sname = reader["CustomerSurtName"].ToString();
+                        details.address = reader["CustomerAddress"].ToString();
                     }
                 }
                 reader.Close();

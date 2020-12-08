@@ -86,6 +86,7 @@ namespace Front_End
             }
             else if (result == DialogResult.Yes)
             {
+                MessageBox.Show("Print confirmed");
                 this.Close();
             }
         }

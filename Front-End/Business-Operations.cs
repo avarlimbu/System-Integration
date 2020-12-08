@@ -78,7 +78,7 @@ namespace Front_End
 
             if (query == true)
             {
-                // success
+                MessageBox.Show("Syncronization successfull"); // success
             }
             else
             {
@@ -96,6 +96,7 @@ namespace Front_End
 
             if (query == true)
             {
+                MessageBox.Show("Recovery successfull");
                 // success
             }
             else
