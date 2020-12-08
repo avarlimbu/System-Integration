@@ -633,7 +633,7 @@ namespace Back_End
                     if (reader["ID"].ToString() == customerID)
                     {
                         details.fname = reader["CustomerFirstName"].ToString();
-                        details.sname = reader["CustomerSurtName"].ToString();
+                        details.sname = reader["CustomerSurName"].ToString();
                         details.address = reader["CustomerAddress"].ToString();
                     }
                 }
